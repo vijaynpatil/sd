@@ -1,0 +1,23 @@
+<div class="product-container">
+    <ul>
+        <li class="product" *ngFor="let product of products">
+            <div class="product_discount">{{product.discount}}% off</div>
+            <div class="product_image">
+                <img src="{{product.image}}" />
+            </div>
+            <div class="product_detail">
+                <p>{{product.name}}</p>
+                <div >
+                    <div class="product_price"> 
+                        <span class="display">${{product.price.display}}</span> 
+                        <span class="actual">${{product.price.actual}}</span>
+                    </div>
+                    <div class="product_button"> 
+                        <button (click)="addtocart(product)">Add to Cart</button>
+                    </div>
+                    <div class="clear_both"></div>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>

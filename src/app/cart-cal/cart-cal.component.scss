@@ -1,0 +1,47 @@
+.price {
+    text-align: right;
+}
+.cart_calc {
+    table {
+        width: 100%;
+        padding-top: 15px;
+        border-bottom: 1px solid #DDD;
+        border-spacing: 0px;
+        th:nth-child(1) {
+            text-align: left;
+        }
+        th {
+            border-top: 1px solid #DDD;
+            border-bottom: 1px solid #DDD;
+            padding: 10px;
+        }
+        .productCount{ 
+            text-align: center;
+            input {
+                width:30px;
+                margin: 0 10px;
+            }
+           
+        }
+        .productName {
+            padding: 10px;
+            vertical-align: middle;
+            display: flex;
+            img {
+                width:25px;
+                height:25px;
+            }
+        }
+    }
+    .cartTotal{ 
+        border:1px solid #DDD;
+        .finalTotal td{
+            background-color: #DDD;
+        }
+        td{
+            padding:5px;
+            border:1px solid black;
+        }
+    }
+
+}

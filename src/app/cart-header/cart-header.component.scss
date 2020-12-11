@@ -1,0 +1,23 @@
+.cart_top {
+    padding: 10px 0;
+    border-top:1px solid #DDD;
+    border-bottom:1px solid #DDD;
+    .top_left{
+        font-weight: bold;
+        font-size: 16px;
+        width: 100px;
+        float: left;
+    }
+    .top_center {
+        background-color: rgb(6, 153, 6);
+        color: rgb(230, 226, 8);
+        width: 160px;
+        float: left;
+        padding: 5px;
+        border-radius: 3px;
+        margin-left: 400px
+    }
+    .clear_both {
+        clear: both;
+    }
+}
